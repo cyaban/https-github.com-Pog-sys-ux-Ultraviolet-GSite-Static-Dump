@@ -4,7 +4,7 @@ const errorCode = document.getElementById("uv-error-code");
 const registerButton = document.getElementById("uv-register-sw");
 
 if (location.pathname.startsWith(__uv$config.prefix)) {
-  error.textContent = "Click Register Service Worker to play.";
+  error.textContent = "Click REGISTER TO PLAY SLAYERSARCADE.TK";
   registerButton.classList.add("show");
 }
 
