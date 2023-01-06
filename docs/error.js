@@ -13,7 +13,7 @@ registerButton.addEventListener("click", async () => {
     await registerSW();
     location.reload();
   } catch (err) {
-    error.textContent = "Failed to register service worker.";
+    error.textContent = "CLICK TO REGISTER TO SLAYERSARCADE.TK.";
     errorCode.textContent = err.toString();
     registerButton.classList.remove("show");
   }
