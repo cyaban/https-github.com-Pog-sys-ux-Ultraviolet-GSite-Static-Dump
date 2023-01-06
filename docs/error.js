@@ -4,7 +4,7 @@ const errorCode = document.getElementById("uv-error-code");
 const registerButton = document.getElementById("uv-register-sw");
 
 if (location.pathname.startsWith(__uv$config.prefix)) {
-  error.textContent = "Error: The service worker is not registered.";
+  error.textContent = "Click Register Service Worker to play.";
   registerButton.classList.add("show");
 }
 
